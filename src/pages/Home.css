@@ -1,0 +1,32 @@
+.text-error {
+  color: red;
+  font-size: 14px;
+  display: none;
+}
+
+.text-error.active {
+  display: block;
+}
+
+.link-btn {
+  padding-left: 20px;
+}
+
+.label {
+  display: block;
+}
+
+.item {
+  white-space: pre-wrap;
+}
+
+.btn {
+  background-color: #4c2885;
+  border-radius: 6px;
+  margin-left: 20px;
+}
+
+.btn .icon {
+  font-size: 15px;
+  margin-right: 5px;
+}
