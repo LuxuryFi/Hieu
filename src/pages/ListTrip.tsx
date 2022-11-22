@@ -15,7 +15,7 @@ import {
 import { useEffect, useState } from 'react';
 import { pencil, trash } from 'ionicons/icons';
 
-import { deleteTrip, getAllTrips } from '../databaseHandler';
+import { deleteTrip1, getAllTrips } from '../databaseHandler';
 import { Trip } from '../models/Trip';
 
 const Setting: React.FC = () => {
@@ -26,7 +26,8 @@ const Setting: React.FC = () => {
   };
 
   const deleteTrip = (id: number) => {
-    const is_deleted = deleteTrip(id);
+    console.log(id);
+    const is_deleted = deleteTrip1(id);
       console.log('a')
     fetchData();
   };

@@ -21,7 +21,7 @@ export async function getTripById(id: number) {
   return db.get('trips', id);
 }
 
-export async function deleteTrip(id: number) {
+export async function deleteTrip1(id: number) {
   const db = await openDB(DB_NAME, 2);
   const result = await db.delete('trips', id);
   alert('Deleted trip successfully!');
